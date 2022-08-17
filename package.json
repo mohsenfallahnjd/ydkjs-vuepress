@@ -10,8 +10,9 @@
   "repository": "https://github.com/mohsenfallahnjd/ydkjs-vuepress",
   "scripts": {
     "replace": "node replace.js",
-    "dev": "yarn replace && vuepress dev src",
-    "build": "yarn run replace && vuepress build src"
+    "prestart": "cd src/ydkjs && git stash && git pull && cd ../..",
+    "dev": "yarn prestart && yarn replace && vuepress dev src",
+    "build": "yarn prestart && yarn replace && vuepress build src"
   },
   "license": "MIT",
   "devDependencies": {

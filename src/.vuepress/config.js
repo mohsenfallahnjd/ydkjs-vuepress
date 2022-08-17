@@ -325,4 +325,6 @@ module.exports = {
     navbar,
     sidebar,
   }),
+
+  dest: 'dist',
 }
