@@ -2,7 +2,9 @@
 
 This is a series of books diving deep into the core mechanisms of the JavaScript language. This is the **second edition** of the book series:
 
-<a href="https://leanpub.com/ydkjsy-get-started"><img src="./src/ydkjs/get-started/images/cover.png" width="75"></a>&nbsp;&nbsp;
+<a href="https://leanpub.com/ydkjsy-get-started"><img src="https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/get-started/images/cover.png" width="75"></a>&nbsp;&nbsp;
+<a href="https://leanpub.com/ydkjsy-scope-closures"><img src="https://github.com/getify/You-Dont-Know-JS/blob/2nd-ed/scope-closures/images/cover.png" width="75"></a>&nbsp;&nbsp;...
+
 
 Origin repo : https://github.com/getify/You-Dont-Know-JS
 
