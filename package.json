@@ -10,7 +10,7 @@
   "repository": "https://github.com/mohsenfallahnjd/ydkjs-vuepress",
   "scripts": {
     "replace": "node replace.js",
-    "prestart": "cd src/ydkjs && git stash && git pull && cd ../..",
+    "prestart": "cd src/ydkjs && git stash && cd ../.. && git submodule update --init",
     "dev": "yarn prestart && yarn replace && vuepress dev src",
     "build": "yarn prestart && yarn replace && vuepress build src"
   },
