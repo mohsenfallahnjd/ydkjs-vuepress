@@ -3,6 +3,13 @@ home: true
 heroImage: /3.avif
 heroAlt: You Don't Know JS Yet (book series) - 2nd Edition
 tagline: You Don't Know JS Yet (book series) - 2nd Edition
+features:
+  - title: Always up to date 😃
+    details: The document will be updated automatically every day.
+  - title: Bookmarkable 🔖
+    details: You can add to you reading list in your browser and then continue reading every time that you are free.
+  - title: Portable 🧺
+    details: You can start to reading from every where.
 actions:
     -   text: Quick Start →
         link: /ydkjs/

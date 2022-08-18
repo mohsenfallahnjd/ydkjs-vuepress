@@ -302,6 +302,10 @@ const navbar = [
     text: 'Book Repo',
     link: 'https://github.com/getify/You-Dont-Know-JS',
   },
+  {
+    text: 'Github',
+    link: 'https://github.com/mohsenfallahnjd/ydkjs-vuepress',
+  },
 ];
 
 module.exports = {
@@ -311,7 +315,22 @@ module.exports = {
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['meta', { name: 'author', content: 'Mohsen Fallahnejad' }],
+    ['meta', { name: 'twitter:title', content: 'You Don\'t Know JS Yet' }],
+    ['meta', { name: 'twitter:description', content: description }],
+    ['meta', { name: 'twitter:creator', content: '@mohsenfallahnjd' }],
+    ['meta', { name: 'twitter:image', content: 'https://ydkjs.themohsen.me/javascript.svg' }],
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:url', content: 'https://ydkjs.themohsen.me/' }],
+    ['meta', { property: 'og:locale', content: 'en' }],
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:image', content: 'https://ydkjs.themohsen.me/javascript.svg' }],
+    ['meta', { property: 'og:site_name', content: 'https://ydkjs.themohsen.me/' }],
+    ['meta', { property: 'og:url', content: 'https://ydkjs.themohsen.me/' }],
+    ['meta', { property: 'og:title', content: 'You Don\'t Know JS Yet' }],
+    ['meta', { property: 'og:description', content: description }],
     ['link', { rel: 'icon', href: '/javascript.svg' }],
+    ['link', { rel: 'canonical', href: 'https://ydkjs.themohsen.me/' }],
   ],
 
   theme: defaultTheme({

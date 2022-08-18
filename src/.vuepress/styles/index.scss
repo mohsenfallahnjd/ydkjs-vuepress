@@ -71,6 +71,22 @@
   --homepage-width: 960px;
 }
 
+.home {
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - var(--navbar-height));
+}
+
+.home .hero img {
+  border-radius: 5px;
+  margin-bottom: 4rem;
+}
+
+.home .footer {
+  margin-top: auto;
+  padding: 1.5rem 2.5rem;
+}
+
 // plugin-back-to-top
 .back-to-top {
   --back-to-top-color: var(--c-brand);
