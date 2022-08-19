@@ -8,7 +8,7 @@ This is a series of books diving deep into the core mechanisms of the JavaScript
 
 Origin repo : https://github.com/getify/You-Dont-Know-JS
 
-Vue press Demo: https://ydkjs.themohsen.me
+Vue press Demo: https://ydkjs.ir
 
 ----
 
