@@ -15,7 +15,7 @@ actions:
         link: /ydkjs/
         type: primary
 footerHtml: true
-footer: <p> Made by <a href="https://theMohsen.me" target="_blank">Mohsen Fallahnejad</a> with ❤️ | Generate by <a href="https://v2.vuepress.vuejs.org/" target="_blank">vuepress</a> </p>
+footer: <p> <a href="mailto:info@ydkjs.ir">Contact</a> | Made by <a href="https://theMohsen.me" target="_blank">Mohsen Fallahnejad</a> with ❤️ | Generate by <a href="https://v2.vuepress.vuejs.org/" target="_blank">vuepress</a> </p>
 ---
 
 > Last Updated: %time%

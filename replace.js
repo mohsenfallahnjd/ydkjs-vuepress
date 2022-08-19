@@ -15,7 +15,7 @@ replace.sync({
 replace.sync({
   files: './src/index.md',
   from: '%time%',
-  to: new Date().toLocaleString('en'),
+  to: new Date().toString(),
 });
 
 console.log('');
