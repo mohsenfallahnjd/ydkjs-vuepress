@@ -1,7 +1,7 @@
 {
   "name": "vuepress-ydkjs",
   "version": "0.0.1",
-  "description": "The ydkjs repo in vuepress generator",
+  "description": "The You Don't Know JS Yet (book series) - 2nd Edition in vuepress generator. It will be updated automatically every day.",
   "main": "index.js",
   "authors": {
     "name": "Mohsen Fallahnejad",

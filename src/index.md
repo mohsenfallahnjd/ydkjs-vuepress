@@ -7,9 +7,9 @@ features:
   - title: Always up to date 😃
     details: The document will be updated automatically every day.
   - title: Bookmarkable 🔖
-    details: You can add to you reading list in your browser and then continue reading every time that you are free.
+    details: You can add it to the reading list in your browser and then continue reading whenever you are free.
   - title: Portable 🧺
-    details: You can start to reading from every where.
+    details: You can start reading from everywhere.
 actions:
     -   text: Quick Start →
         link: /ydkjs/
