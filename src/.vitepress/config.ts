@@ -312,8 +312,9 @@ export default defineConfig({
   lang: 'en-US',
   title: 'You Don\'t Know JS Yet',
   description: description,
+
   lastUpdated: true,
-  appearance: true,
+  cleanUrls: 'without-subfolders',
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -356,6 +357,11 @@ export default defineConfig({
       message: 'Released under the MIT License.',
       copyright: 'Copyright © 2022-present Mohsen Fallahnejad\n<p><a href="mailto:info@ydkjs.ir">Contact</a> | Made by <a href="https://theMohsen.me" target="_blank">Mohsen Fallahnejad</a> with ❤️ | Generate by <a href="https://vitepress.vuejs.org/" target="_blank">vitepress</a></p>'
     },
+
+    carbonAds: {
+      code: 'CEBDT27Y',
+      placement: 'vuejsorg'
+    }
   },
 
   outDir: 'dist',
