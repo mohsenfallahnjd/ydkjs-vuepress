@@ -5,16 +5,20 @@ const sidebar: any = {
   '/': [
     {
       text: 'Introduction',
-      link: '/ydkjs/',
+      items: [
+          {
+          text: 'Intro',
+          link: '/ydkjs/README.md',
+        },
+      ],
     },
     {
       text: 'Get Started',
-      link: '/ydkjs/get-started/',
       collapsable: true,
       items: [
         {
           text: 'Intro',
-          link: '/ydkjs/get-started/',
+          link: '/ydkjs/get-started/README.md',
         },
         {
           text: 'Table of Contents',
@@ -56,12 +60,11 @@ const sidebar: any = {
     },
     {
       text: 'Scope & Closures',
-      link: '/ydkjs/scope-closures/',
       collapsable: true,
-      children: [
+      items: [
         {
           text: 'Intro',
-          link: '/ydkjs/scope-closures/',
+          link: '/ydkjs/scope-closures/README.md',
         },
         {
           text: 'Table of Contents',
@@ -119,12 +122,11 @@ const sidebar: any = {
     },
     {
       text: 'Objects & Classes',
-      link: '/ydkjs/objects-classes/',
       collapsable: true,
-      children: [
+      items: [
         {
           text: 'Intro',
-          link: '/ydkjs/objects-classes/',
+          link: '/ydkjs/objects-classes/README.md',
         },
         {
           text: 'Table of Contents',
@@ -162,12 +164,11 @@ const sidebar: any = {
     },
     {
       text: 'Types & Grammar',
-      link: '/ydkjs/types-grammar/',
       collapsable: true,
-      children: [
+      items: [
         {
           text: 'Intro',
-          link: '/ydkjs/types-grammar/',
+          link: '/ydkjs/types-grammar/README.md',
         },
         {
           text: 'Table of Contents',
@@ -204,12 +205,11 @@ const sidebar: any = {
     },
     {
       text: 'Async & Performance',
-      link: '/ydkjs/sync-async/',
       collapsable: true,
-      children: [
+      items: [
         {
           text: 'Intro',
-          link: '/ydkjs/sync-async/',
+          link: '/ydkjs/sync-async/README.md',
         },
         {
           text: 'Table of Contents',
@@ -231,12 +231,11 @@ const sidebar: any = {
     },
     {
       text: 'ES.Next & Beyond',
-      link: '/ydkjs/es-next-beyond/',
       collapsable: true,
-      children: [
+      items: [
         {
           text: 'Intro',
-          link: '/ydkjs/es-next-beyond/',
+          link: '/ydkjs/es-next-beyond/README.md',
         },
         {
           text: 'Table of Contents',
@@ -269,32 +268,32 @@ const nav: any = [
     items: [
       {
         text: 'Introduction',
-        link: '/ydkjs/',
+        link: '/ydkjs/README.md',
         activeMatch: '^/ydkjs/$',
       },
       {
         text: 'Get Started',
-        link: '/ydkjs/get-started/',
+        link: '/ydkjs/get-started/README.md',
       },
       {
         text: 'Scope & Closures',
-        link: '/ydkjs/scope-closures/',
+        link: '/ydkjs/scope-closures/README.md',
       },
       {
         text: 'Objects & Classes',
-        link: '/ydkjs/objects-classes/',
+        link: '/ydkjs/objects-classes/README.md',
       },
       {
         text: 'Types & Grammar',
-        link: '/ydkjs/types-grammar/',
+        link: '/ydkjs/types-grammar/README.md',
       },
       {
         text: 'Sync & Async',
-        link: '/ydkjs/sync-async/',
+        link: '/ydkjs/sync-async/README.md',
       },
       {
         text: 'ES.Next & Beyond',
-        link: '/ydkjs/es-next-beyond/',
+        link: '/ydkjs/es-next-beyond/README.md',
       },
     ],
   },
@@ -343,10 +342,10 @@ export default defineConfig({
     nav,
     sidebar,
 
-    editLink: {
-      pattern: 'https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/:path',
-      text: 'Edit this page on GitHub'
-    },
+    // editLink: {
+    //   pattern: 'https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/:path',
+    //   text: 'Edit this page on GitHub'
+    // },
 
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mohsenfallahnjd/ydkjs-vuepress' },

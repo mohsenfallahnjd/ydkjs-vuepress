@@ -11,7 +11,7 @@ hero:
   tagline: You Don't Know JS Yet (book series) - 2nd Edition
   actions:
     - text: Quick Start →
-      link: /ydkjs/
+      link: /ydkjs/README.md
       theme: brand
     - theme: alt
       text: View on GitHub
