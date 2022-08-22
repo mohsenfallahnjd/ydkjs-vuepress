@@ -1,7 +1,7 @@
 const { description } = require('../../package');
-// const { defaultTheme } = require('@vitepress/theme-default');
+import { defineConfig } from 'vitepress';
 
-const sidebar = {
+const sidebar: any = {
   '/': [
     {
       text: 'Introduction',
@@ -259,7 +259,7 @@ const sidebar = {
   ]
 };
 
-const navbar = [
+const nav: any = [
   {
     text: 'Home',
     link: '/',
@@ -308,9 +308,11 @@ const navbar = [
   },
 ];
 
-export default {
-  siteTitle: 'You Don\'t Know JS Yet',
+export default defineConfig({
+  lang: 'en-US',
+  title: 'You Don\'t Know JS Yet',
   description: description,
+  lastUpdated: true,
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
@@ -334,21 +336,31 @@ export default {
   ],
 
   themeConfig: {
-    themePlugins: {
-      mediumZoom: true,
-      git: true,
-      nprogress: true,
-    },
-    lastUpdated: true,
+    // themePlugins: {
+    //   mediumZoom: true,
+    //   git: true,
+    //   nprogress: true,
+    // },
+    siteTitle: 'You Don\'t Know JS Yet',
     logo: '/javascript.svg',
-    navbar,
+    nav,
     sidebar,
+
+    editLink: {
+      pattern: 'https://github.com/getify/You-Dont-Know-JS/tree/2nd-ed/:path',
+      text: 'Edit this page on GitHub'
+    },
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/mohsenfallahnjd/ydkjs-vuepress' },
+      { icon: 'twitter', link: 'https://twitter.com/mohsenfallahnjd' },
+    ],
+
+    footer: {
+      message: 'Released under the MIT License.',
+      copyright: 'Copyright © 2022-present Mohsen Fallahnejad'
+    },
   },
 
-  socialLinks: [
-    { icon: 'github', link: 'https://github.com/mohsenfallahnjd/ydkjs-vuepress' },
-    { icon: 'twitter', link: 'https://twitter.com/mohsenfallahnjd' },
-  ],
-
-  dest: 'dist',
-}
+  outDir: 'dist',
+})

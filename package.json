@@ -1,7 +1,7 @@
 {
-  "name": "vuepress-ydkjs",
+  "name": "vitepress-ydkjs",
   "version": "0.0.1",
-  "description": "The You Don't Know JS Yet (book series) - 2nd Edition in vuepress generator. It will be updated automatically every day.",
+  "description": "The You Don't Know JS Yet (book series) - 2nd Edition in vitepress generator. It will be updated automatically every day.",
   "main": "index.js",
   "authors": {
     "name": "Mohsen Fallahnejad",
@@ -12,12 +12,14 @@
     "replace": "node replace.js",
     "git-submodule": "git submodule update --init",
     "prestart": "cd src/ydkjs && git stash && git pull && cd ../..",
-    "dev": "yarn prestart && yarn replace && vuepress dev src",
-    "build": "yarn prestart && yarn replace && vuepress build src"
+    "dev": "yarn prestart && yarn replace && vitepress dev src",
+    "serve": "yarn prestart && yarn replace && vitepress serve src",
+    "build": "yarn prestart && yarn replace && vitepress build src"
   },
   "license": "MIT",
   "devDependencies": {
-    "vuepress": "^2.0.0-beta.49"
+    "vitepress": "^1.0.0-alpha.10",
+    "vue": "^3.2.37"
   },
   "dependencies": {
     "replace-in-file": "^6.3.5"
