@@ -336,11 +336,6 @@ export default defineConfig({
   ],
 
   themeConfig: {
-    // themePlugins: {
-    //   mediumZoom: true,
-    //   git: true,
-    //   nprogress: true,
-    // },
     siteTitle: 'You Don\'t Know JS Yet',
     logo: '/javascript.svg',
     nav,
