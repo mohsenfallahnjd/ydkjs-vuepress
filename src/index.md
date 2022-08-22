@@ -17,12 +17,12 @@ features:
   - title: Portable 🧺
     details: You can start reading from everywhere.
 actions:
-    - text: Quick Start →
-      link: /ydkjs/
-      theme: brand
-    - theme: alt
-      text: View on GitHub
-      link: https://github.com/mohsenfallahnjd/ydkjs-vuepress
+  - text: Quick Start →
+    link: /ydkjs/
+    theme: brand
+  - theme: alt
+    text: View on GitHub
+    link: https://github.com/mohsenfallahnjd/ydkjs-vuepress
 ---
 
-> Last Updated: Mon Aug 22 2022 20:50:48 GMT+0430 (Iran Daylight Time)
+> Last Updated: %time%
