@@ -353,7 +353,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present Mohsen Fallahnejad'
+      copyright: 'Copyright © 2022-present Mohsen Fallahnejad\n<p><a href="mailto:info@ydkjs.ir">Contact</a> | Made by <a href="https://theMohsen.me" target="_blank">Mohsen Fallahnejad</a> with ❤️ | Generate by <a href="https://vitepress.vuejs.org/" target="_blank">vitepress</a></p>'
     },
   },
 
