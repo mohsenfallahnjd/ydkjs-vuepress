@@ -313,6 +313,7 @@ export default defineConfig({
   title: 'You Don\'t Know JS Yet',
   description: description,
   lastUpdated: true,
+  appearance: true,
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
