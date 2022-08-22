@@ -25,4 +25,4 @@ actions:
       link: https://github.com/mohsenfallahnjd/ydkjs-vuepress
 ---
 
-> Last Updated: %time%
+> Last Updated: Mon Aug 22 2022 20:50:48 GMT+0430 (Iran Daylight Time)
