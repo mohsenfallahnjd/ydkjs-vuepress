@@ -5,16 +5,17 @@ const sidebar: any = {
   '/': [
     {
       text: 'Introduction',
+      collapsible: true,
       items: [
           {
-          text: 'Intro',
+          text: 'You Don\'t Know JS Yet',
           link: '/ydkjs/README.md',
         },
       ],
     },
     {
       text: 'Get Started',
-      collapsable: true,
+      collapsible: true,
       items: [
         {
           text: 'Intro',
@@ -60,40 +61,16 @@ const sidebar: any = {
     },
     {
       text: 'Scope & Closures',
-      collapsable: true,
+      collapsible: true,
       items: [
-        {
-          text: 'Intro',
-          link: '/ydkjs/scope-closures/README.md',
-        },
-        {
-          text: 'Table of Contents',
-          link: '/ydkjs/scope-closures/toc.md',
-        },
-        {
-          text: 'Foreword',
-          link: '/ydkjs/scope-closures/foreword.md',
-        },
-        {
-          text: 'Preface',
-          link: '/ydkjs/preface.md',
-        },
-        {
-          text: 'Chapter 1: What\'s the Scope?',
-          link: '/ydkjs/scope-closures/ch1.md',
-        },
-        {
-          text: 'Chapter 2: Illustrating Lexical Scope',
-          link: '/ydkjs/scope-closures/ch2.md',
-        },
-        {
-          text: 'Chapter 3: The Scope Chain',
-          link: '/ydkjs/scope-closures/ch3.md',
-        },
-        {
-          text: 'Chapter 4: Around the Global Scope',
-          link: '/ydkjs/scope-closures/ch4.md',
-        },
+        { text: 'Intro', link: '/ydkjs/scope-closures/README.md' },
+        { text: 'Table of Contents', link: '/ydkjs/scope-closures/toc.md' },
+        { text: 'Foreword', link: '/ydkjs/scope-closures/foreword.md' },
+        { text: 'Preface', link: '/ydkjs/preface.md' },
+        { text: 'Chapter 1: What\'s the Scope?', link: '/ydkjs/scope-closures/ch1.md' },
+        { text: 'Chapter 2: Illustrating Lexical Scope', link: '/ydkjs/scope-closures/ch2.md' },
+        { text: 'Chapter 3: The Scope Chain', link: '/ydkjs/scope-closures/ch3.md' },
+        { text: 'Chapter 4: Around the Global Scope', link: '/ydkjs/scope-closures/ch4.md' },
         {
           text: 'Chapter 5: The (Not So) Secret Lifecycle of Variables',
           link: '/ydkjs/scope-closures/ch5.md',
@@ -122,7 +99,7 @@ const sidebar: any = {
     },
     {
       text: 'Objects & Classes',
-      collapsable: true,
+      collapsible: true,
       items: [
         {
           text: 'Intro',
@@ -164,7 +141,7 @@ const sidebar: any = {
     },
     {
       text: 'Types & Grammar',
-      collapsable: true,
+      collapsible: true,
       items: [
         {
           text: 'Intro',
@@ -205,7 +182,7 @@ const sidebar: any = {
     },
     {
       text: 'Async & Performance',
-      collapsable: true,
+      collapsible: true,
       items: [
         {
           text: 'Intro',
@@ -231,7 +208,7 @@ const sidebar: any = {
     },
     {
       text: 'ES.Next & Beyond',
-      collapsable: true,
+      collapsible: true,
       items: [
         {
           text: 'Intro',
@@ -354,13 +331,14 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present Mohsen Fallahnejad\n<p><a href="mailto:info@ydkjs.ir">Contact</a> | Made by <a href="https://theMohsen.me" target="_blank">Mohsen Fallahnejad</a> with ❤️ | Generate by <a href="https://vitepress.vuejs.org/" target="_blank">vitepress</a></p>'
+      copyright: 'Copyright © 2022-present | by <a href="https://theMohsen.me" target="_blank">Mohsen Fallahnejad</a> with ❤️ \n<p><a href="mailto:info@themohsen.me">Contact</a> | Generate by <a href="https://vitepress.vuejs.org/" target="_blank">vitepress</a></p>'
     },
 
-    carbonAds: {
-      code: 'CEBDT27Y',
-      placement: 'vuejsorg'
-    }
+    // algolia: {
+    //   appId: '8J64VVRP8K',
+    //   apiKey: 'a18e2f4cc5665f6602c5631fd868adfd',
+    //   indexName: 'vitepress'
+    // },
   },
 
   outDir: 'dist',

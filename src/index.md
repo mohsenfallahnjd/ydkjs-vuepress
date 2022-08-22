@@ -26,4 +26,6 @@ features:
 
 ---
 
-> Last Updated: %time%
+<p style="text-align: center; width: 100%; margin-top: 20px; opacity: 0.3; font-size: 14px; padding: 24px;">
+  📆 Last Updated: <strong>%time%</strong>
+</p>
