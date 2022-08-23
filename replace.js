@@ -18,6 +18,12 @@ replace.sync({
   to: new Date().toString(),
 });
 
+replace.sync({
+  files: './src/ydkjs/objects-classes/foreword.md',
+  from: '[You Don\'t Know JS Yet: Objects & Classes]()',
+  to: '[You Don\'t Know JS Yet: Objects & Classes](README.md)',
+});
+
 console.log('');
 console.log('🚀 ~ Replace Success ✅');
 console.log('');
