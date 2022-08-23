@@ -11,10 +11,11 @@
   "scripts": {
     "replace": "node replace.js",
     "git-submodule": "git submodule update --init",
-    "prestart": "git stash push src/ydkjs && git pull src/ydkjs",
-    "dev": "yarn prestart && yarn replace && vitepress dev src",
-    "serve": "yarn prestart && yarn replace && vitepress serve src",
-    "build": "yarn prestart && yarn replace && vitepress build src"
+    "stash": "git -C src/ydkjs stash",
+    "pull": "git -C src/ydkjs pull | exit",
+    "dev": "yarn stash && yarn pull && yarn replace && vitepress dev src",
+    "serve": "yarn stash && yarn pull && yarn replace && vitepress serve src",
+    "build": "yarn stash && yarn pull && yarn replace && vitepress build src"
   },
   "license": "MIT",
   "devDependencies": {

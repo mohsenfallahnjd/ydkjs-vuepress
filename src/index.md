@@ -8,7 +8,7 @@ hero:
   image: /3.avif
   name: YDKJS Yet
   text: 2nd Edition
-  tagline: You Don't Know JS Yet (book series) - 2nd Edition
+  tagline: You Don't Know JS Yet (book series) - 2nd Edition by Kyle Simpson.
   actions:
     - text: Quick Start →
       link: /ydkjs/README.md

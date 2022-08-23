@@ -278,10 +278,6 @@ const nav: any = [
     text: 'Book Repo',
     link: 'https://github.com/getify/You-Dont-Know-JS',
   },
-  {
-    text: 'Github',
-    link: 'https://github.com/mohsenfallahnjd/ydkjs-vuepress',
-  },
 ];
 
 export default defineConfig({
@@ -327,6 +323,7 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/mohsenfallahnjd/ydkjs-vuepress' },
       { icon: 'twitter', link: 'https://twitter.com/mohsenfallahnjd' },
+      { icon: 'linkedin', link: 'https://linkedin.com/in/mohsenfallahnjd' },
     ],
 
     footer: {
