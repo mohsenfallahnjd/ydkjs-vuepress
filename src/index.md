@@ -23,9 +23,7 @@ features:
     details: You can add it to the reading list in your browser and then continue reading whenever you are free.
   - title: Portable 🧺
     details: You can start reading from everywhere.
+  - title: Last Updated 📆
+    details: %time%
 
 ---
-
-<p style="text-align: center; width: 100%; margin-top: 20px; opacity: 0.3; font-size: 14px; padding: 24px;">
-  📆 Last Updated: <strong>%time%</strong>
-</p>
