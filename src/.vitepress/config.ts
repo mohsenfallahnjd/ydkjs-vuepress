@@ -328,7 +328,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the MIT License.',
-      copyright: 'Copyright © 2022-present | by <a href="https://theMohsen.me" target="_blank">Mohsen Fallahnejad</a> with ❤️ \n<p><a href="mailto:info@themohsen.me">Contact</a> | Generate by <a href="https://vitepress.vuejs.org/" target="_blank">vitepress</a></p>'
+      copyright: 'Copyright © 2022-present | Made by <a href="https://theMohsen.me" target="_blank">Mohsen Fallahnejad</a> | <a href="mailto:info@themohsen.me">Contact</a>'
     },
 
     // algolia: {
