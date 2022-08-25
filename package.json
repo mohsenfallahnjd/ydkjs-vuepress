@@ -13,9 +13,9 @@
     "git-submodule": "git submodule update --init",
     "stash": "git -C src/ydkjs stash",
     "pull": "cd src/ydkjs && git pull && cd ../..",
-    "dev": "yarn stash && yarn pull && yarn replace && vitepress dev src",
-    "serve": "yarn stash && yarn pull && yarn replace && vitepress serve src",
-    "build": "yarn stash && yarn pull && yarn replace && vitepress build src"
+    "dev": "yarn stash && yarn pull && yarn replace && vitepress dev docs",
+    "serve": "yarn stash && yarn pull && yarn replace && vitepress serve docs",
+    "build": "yarn stash && yarn pull && yarn replace && vitepress build docs"
   },
   "license": "MIT",
   "devDependencies": {

@@ -8,18 +8,18 @@ const someProcessingA = (input) => {
 const someProcessingB = (input) => input.replace(/https\:\/\/github.com\/getify\/You-Dont-Know-JS\/blob\/2nd-ed\/external-logos\//g, './external-logos/');
 
 replace.sync({
-  files: './src/ydkjs/**/*.md',
+  files: './docs/ydkjs/**/*.md',
   processor: [someProcessingA, someProcessingB],
 });
 
 replace.sync({
-  files: './src/index.md',
+  files: './docs/index.md',
   from: '%time%',
   to: new Date().toString(),
 });
 
 replace.sync({
-  files: './src/ydkjs/objects-classes/foreword.md',
+  files: './docs/ydkjs/objects-classes/foreword.md',
   from: '[You Don\'t Know JS Yet: Objects & Classes]()',
   to: '[You Don\'t Know JS Yet: Objects & Classes](README.md)',
 });

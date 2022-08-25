@@ -1,4 +1,4 @@
-[submodule "src/ydkjs"]
-	path = src/ydkjs
+[submodule "docs/ydkjs"]
+	path = docs/ydkjs
 	url = git@github.com:getify/You-Dont-Know-JS.git
 	branch = 2nd-ed
