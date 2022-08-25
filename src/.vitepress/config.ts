@@ -1,8 +1,8 @@
-const { description } = require('../../package');
+import { description } from '../../package.json'
 import { defineConfig } from 'vitepress';
 
 const sidebar: any = {
-  '/': [
+  '/ydkjs/': [
     {
       text: 'Introduction',
       collapsible: true,
@@ -237,10 +237,6 @@ const sidebar: any = {
 
 const nav: any = [
   {
-    text: 'Home',
-    link: '/',
-  },
-  {
     text: 'YDKJS',
     items: [
       {
@@ -292,7 +288,7 @@ export default defineConfig({
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
     ['meta', { name: 'author', content: 'Mohsen Fallahnejad' }],
-    ['meta', { name: 'keywords', content: ['js', 'javascript', 'ydkjs', 'ydkjsy'] }],
+    ['meta', { name: 'keywords', content: 'ydkjs' }],
     ['meta', { name: 'twitter:title', content: 'You Don\'t Know JS Yet in vitepress' }],
     ['meta', { name: 'twitter:description', content: description }],
     ['meta', { name: 'twitter:creator', content: '@mohsenfallahnjd' }],
