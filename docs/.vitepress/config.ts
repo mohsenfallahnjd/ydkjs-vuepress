@@ -282,7 +282,9 @@ export default defineConfig({
   description: description,
 
   lastUpdated: true,
+  ignoreDeadLinks: true,
   cleanUrls: 'without-subfolders',
+  base: '/',
   head: [
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
