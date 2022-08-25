@@ -1,4 +1,4 @@
-# You Don't Know JS Yet (book series) - 2nd Edition by [vuepress](https://v2.vuepress.vuejs.org/)
+# You Don't Know JS Yet (book series) - 2nd Edition by [vitepress](https://vitepress.vuejs.org/)
 
 This is a series of books diving deep into the core mechanisms of the JavaScript language. This is the **second edition** of the book series:
 
@@ -8,7 +8,7 @@ This is a series of books diving deep into the core mechanisms of the JavaScript
 
 Origin repo : https://github.com/getify/You-Dont-Know-JS
 
-Vue press Demo: https://ydkjs.ir
+Vue press Demo: https://ydkjs.themohsen.me
 
 ----
 
