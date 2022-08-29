@@ -14,7 +14,7 @@
     "stash": "git -C docs/ydkjs stash",
     "pull": "cd docs/ydkjs && git checkout 2nd-ed && git pull && cd ../..",
     "dev": "yarn stash && yarn pull && yarn replace && vitepress dev docs",
-    "serve": "vitepress serve docs",
+    "serve": "vitepress serve docs --port 1234",
     "build": "yarn stash && yarn pull && yarn replace && vitepress build docs"
   },
   "license": "MIT",
