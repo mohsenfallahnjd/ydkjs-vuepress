@@ -12,11 +12,11 @@ replace.sync({
   processor: [someProcessingA, someProcessingB],
 });
 
-// replace.sync({
-//   files: './docs/index.md',
-//   from: '%time%',
-//   to: new Date().toString(),
-// });
+replace.sync({
+  files: './docs/index.md',
+  from: '%time%',
+  to: new Date().toString(),
+});
 
 replace.sync({
   files: './docs/ydkjs/objects-classes/foreword.md',
