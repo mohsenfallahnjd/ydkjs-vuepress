@@ -12,7 +12,7 @@
     "replace": "node replace.js",
     "git-submodule": "git submodule update --init",
     "stash": "git -C docs/ydkjs stash",
-    "pull": "cd docs/ydkjs && git pull && cd ../..",
+    "pull": "cd docs/ydkjs && git checkout 2nd-ed && git pull && cd ../..",
     "dev": "yarn stash && yarn pull && yarn replace && vitepress dev docs",
     "serve": "yarn stash && yarn pull && yarn replace && vitepress serve docs",
     "build": "yarn stash && yarn pull && yarn replace && vitepress build docs"
